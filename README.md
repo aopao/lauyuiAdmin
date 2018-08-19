@@ -57,13 +57,3 @@ mvvm框架 | [pandyle.js](https://gitee.com/pandarrr/pandyle) (专为jquery编�
 ![消息弹窗](https://ws1.sinaimg.cn/large/006a7GCKgy1fstc7lye0jj30vq0i8gmv.jpg)
 
 ![角色管理](https://ws1.sinaimg.cn/large/006a7GCKgy1fstc7logerj30vq0i8js2.jpg)
-
-
----
-
-## 联系方式
-### 欢迎加入“前后端分离技术交流群”：
-![群二维码](https://ws1.sinaimg.cn/large/006a7GCKgy1fstbxycj1xj305k07m75h.jpg)
-
-### 我要打赏：
-都是猿友，撸码不易，如果这个轮子对你有用，不妨打赏一下！
