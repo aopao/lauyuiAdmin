@@ -191,10 +191,6 @@ layui.define(['config', 'admin', 'layer', 'laytpl', 'element', 'form'], function
     element.on('tab(admin-pagetabs)', function (data) {
         var layId = $(this).attr('lay-id');
 
-        //将search加到页面上
-        // if( !!layId ) {
-        //     layId = location.hash.substring(2);
-        // }
         Q.go(layId);
     });
 

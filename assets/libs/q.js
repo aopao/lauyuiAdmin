@@ -11,7 +11,7 @@ var Q = function (W, D, HTML, hash, view, arg, _arg, i, index, Regex, key, Q) {
 
         arg = hash.split(/\?/g).shift();
 
-        arg = arg.split('/');
+        arg = [arg];
 
         i = Regex.length;
         while (i--)
@@ -22,8 +22,11 @@ var Q = function (W, D, HTML, hash, view, arg, _arg, i, index, Regex, key, Q) {
             }
 
 
-        if (!Q[arg[0]]) // default
+        if( !arg[0] ) {
+            arg[0] = index;
+        } else if (!Q[arg[0]]) {
             arg[0] = "error";
+        }
 
         if (Q.pop)
             Q.pop.apply(W, arg);

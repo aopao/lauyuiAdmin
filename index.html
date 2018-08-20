@@ -88,6 +88,19 @@
             index.bindEvent();
         });
 
+        Q.reg('userInfo_id', function (userId) {
+            index.loadView('userInfo_id', 'components/user/info.html', '用户详情');
+        });
+
+        var auth = {
+            user: {
+                search: true,
+                add: false
+            }
+        };
+
+        window.sessionStorage.setItem("auth", JSON.stringify(auth))
+
 //        var rootLoad = layer.load(1);
 //        setTimeout(function() {
 //            layer.close( rootLoad );
